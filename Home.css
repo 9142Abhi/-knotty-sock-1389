@@ -104,13 +104,16 @@ position: relative;
 bottom: 3px;
 
 }
-#navtopic>p{
-
+#navtopic>a{
+    text-decoration: none;
+}
+#navtopic>a>p{
+color:black;
 font-weight: 600;
 color:rgb(97, 96, 96);
 margin-bottom: 10px;
 }
-#navtopic>p:hover{
+#navtopic>a>p:hover{
 cursor: pointer;
 border: 2px solid gray;
 border-bottom:none;

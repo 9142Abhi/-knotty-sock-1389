@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    #top{
+    width: 88%;
+    
+    margin: auto;
+    display: flex;
+    }
+    #top>div{
+    width: 15%;
+    background-color: whitesmoke;
+    
+    }
+    #top>img:hover{
+    cursor: pointer;
+    }
+    #date{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 5;
+    left:100px;
+    top: 220px;
+    }
+    #date>p{
+    width: 15%;
+    }
+    #date>div{
+    width: 9%;
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-around;
+    
+    }
+    #date>div>img:hover{
+    cursor: pointer;
+    }
+    #heading{
+    margin: auto;
+    text-align: center;
+    
+    }
+    #heading>h1{
+    width: 16%;
+    
+    margin: auto;
+    margin-top: -30px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    #heading>h1:hover{
+    cursor: pointer;
+    }
+    #enter{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    }
+    
+    #enter>p{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+    font-size: 14px;
+    color:rgba(42, 41, 41, 0.916);
+    }
+    #enter>p:nth-child(2){
+    color:rgb(163, 3, 3);
+    font-size: 12px;
+    
+    
+    }
+    #nav{
+    
+    display: flex;
+    width: 88%;
+    text-transform: uppercase;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position:relative;
+    top:0px
+    }
+    #navtopic{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    bottom: 3px;
+    
+    }
+    #navtopic>a{
+        text-decoration: none;
+    }
+    #navtopic>a>p{
+    color:black;
+    font-weight: 600;
+    color:rgb(97, 96, 96);
+    margin-bottom: 10px;
+    }
+    #navtopic>a>p:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+    border-bottom:none;
+    color: red;
+    padding: 3px;
+    
+    margin-bottom: -5px;
+    }
+    
+    hr{
+    border-top: 1px solid red;
+    position: relative;
+    top:-8px;
+    
+    }
+    #nav>img:hover{
+    cursor: pointer;
+    }
+    #navbar{
+    position:sticky;
+    top: 1px;
+    background-color: white;
+    
+    }
+    h1{
+        width: 90%;
+        margin: auto;
+        font-weight: 100;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #cryptomain{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,32%);
+        grid-template-rows: repeat(2,auto);
+        gap:20px;
+        margin: auto ;
+        
+    }
+    #cryptomain>div:nth-child(2),
+    #cryptomain>div:nth-child(5){
+        border-left: 1px solid rgb(222, 221, 221);
+        border-right: 1px solid rgb(222, 221, 221);
+    }
+    #cryptomain>div{
+        padding-bottom: 15px;
+        border-bottom: 1px solid gray;
+        padding: 10px;
+    } 
+    #cryptomain>div>h2{
+        font-weight: 100;
+    }
+    #cryptomain>div>h2:hover{
+        color:red;
+        cursor: pointer;
+    }
+    #cryptomain>div>a>img{
+        width: 100%;
+
+    }
+    #cryptomain>div>a>img:hover{
+        cursor: pointer;
+    }
+    #cryptomain>div>a>h2{
+        font-weight: 100;
+        color:black;
+        
+        
+    }
+    #cryptomain>div>a{
+        text-decoration: none;
+    }
+    #cryptomain>div>a>h2:hover{
+        color:red;
+        cursor: pointer;
+    }
+    #cryptomain>div>p{
+        font-size: 18px;
+        color: rgb(95, 94, 94);
+    }
+    #cryptomain>div>p+p{
+        color:red;
+        font-size: 14px;
+    }
