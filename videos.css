@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    #top{
+    width: 88%;
+    
+    margin: auto;
+    display: flex;
+    }
+    #top>div{
+    width: 15%;
+    background-color: whitesmoke;
+    
+    }
+    #top>img:hover{
+    cursor: pointer;
+    }
+    #date{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 5;
+    left:100px;
+    top: 220px;
+    }
+    #date>p{
+    width: 15%;
+    }
+    #date>div{
+    width: 9%;
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-around;
+    
+    }
+    #date>div>img:hover{
+    cursor: pointer;
+    }
+    #heading{
+    margin: auto;
+    text-align: center;
+    
+    }
+    #heading>h1{
+    width: 16%;
+    
+    margin: auto;
+    margin-top: -30px;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    #heading>h1:hover{
+    cursor: pointer;
+    }
+    #enter{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    }
+    
+    #enter>p{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -5px;
+    font-size: 14px;
+    color:rgba(42, 41, 41, 0.916);
+    }
+    #enter>p:nth-child(2){
+    color:rgb(163, 3, 3);
+    font-size: 12px;
+    
+    
+    }
+    #nav{
+    
+    display: flex;
+    width: 88%;
+    text-transform: uppercase;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position:relative;
+    top:0px
+    }
+    #navtopic{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 14px;
+    position: relative;
+    bottom: 3px;
+    
+    }
+    #navtopic>a{
+        text-decoration: none;
+    }
+    #navtopic>a>p{
+    color:black;
+    font-weight: 600;
+    color:rgb(97, 96, 96);
+    margin-bottom: 10px;
+    }
+    #navtopic>a>p:hover{
+    cursor: pointer;
+    border: 2px solid gray;
+    border-bottom:none;
+    color: red;
+    padding: 3px;
+    
+    margin-bottom: -5px;
+    }
+    
+    hr{
+    border-top: 1px solid red;
+    position: relative;
+    top:-8px;
+    
+    }
+    #nav>img:hover{
+    cursor: pointer;
+    }
+    #navbar{
+    position:sticky;
+    top: 1px;
+    background-color: white;
+    
+    }
+
+        h1{
+            width: 90%;
+            margin: auto;
+            font-weight: 200;
+            margin-top: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #videomain{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            margin-top: 20px;
+            justify-content: space-between;
+        }
+        #videofirst{
+            width: 45%;
+            padding-right: 30px;
+            border-right: 1px solid rgb(227, 227, 227);
+            
+        }
+        #videofirst>a>img{
+            width: 100%;
+            cursor: pointer;
+        }
+        #videofirst>a>h1:hover{
+            cursor: pointer;
+            color:red;
+        }
+        #videosecond{
+            width: 50%;
+            display: flex;
+            justify-content:space-between;
+        }
+        #videosecond>div{
+            width: 47%;
+            
+        }
+        #videofirst>a{
+            text-decoration: none;
+        }
+        #videofirst>a>h1{
+            width: 100%;
+            color:black;
+            
+            margin-top: 10px;
+            font-size: 40px;
+            margin-bottom: -6px;
+        }
+        #videofirst>p{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 24px;
+            color:rgb(105, 105, 105);
+
+        }
+        #videofirst>p+p{
+            font-size: 13px;
+            color:red;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -8px;
+        }
+        #videosecond>div>div:first-child{
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgb(183, 182, 182);
+        }
+        #videosecond>div>div>a{
+            text-decoration: none;
+            
+            
+        }
+        #videosecond>div>div>a>h2{
+            font-weight: 500;
+            color:black;
+            font-size: 22px;
+        }
+        #videosecond>div>div>a>h2:hover{
+            color:red;
+            cursor: pointer;
+        }
+        #videosecond>div>div>a>img{
+            width: 100%;
+            cursor: pointer;
+        }
+        #videosecond>div>div>p{
+            font-size: 16px;
+            line-height: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:rgba(11, 11, 11, 0.72);
+        }
+        #videosecond>div>div>p+p{
+            font-size: 12px;
+            color:red;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    
